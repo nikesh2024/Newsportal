@@ -6,6 +6,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+
+<!-- add icon link -->
+<link rel="icon" href="./images/contact_icon.jpg" type="image/x-icon">
+
 </head>
 
 <body>
@@ -47,8 +51,50 @@
         
 <!--Footer Part -->
         <footer class="last_part" id="last_part">
-            <section class="footer_part" id="footer_part">
-                <p> WOW News &copy 2024</p>
+            
+            <section>
+                <form action="https://httpbin.org/post" method="post">
+                   
+                    <P>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Your Name" required>
+                    </P>
+
+                    <p>
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" placeholder="Password" required>
+                    </p>
+
+                    <p>
+                        <label for="number">Number</label>
+                        <input type="number" name="number" id="number" placeholder="Phone Number" required>
+                    </p>
+
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Your email" required>
+                    </p>
+
+                    <p>
+                        <label for="message">Message</label>
+                        <input type="text" name="message" id="message" cols="30" placeholder="message" required>
+                    </p>
+
+                    <p>
+                        <label for=""></label>
+                    </p>
+                    
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                    <hr/>
+
+
+                </form>
+
+                <section class="footer_part" id="footer_part">
+                    <p> WOW News &copy 2024</p>
+                </section>
+    
             </section>
         </footer>
 </body>
